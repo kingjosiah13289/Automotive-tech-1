@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00B8D4"
+    tools:context=".HomepageActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="59dp"
+        android:text="WELCOME TO AUTOMOTIVE TECH WHERE WE VALUE YOUR SAFETY AND COMFORT"
+        android:textAlignment="center"
+        android:textColor="#EF0B0B"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/btn_procedetoservices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="23dp"
+        android:text="AUTOMOTIVE TECH"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/btn_procedetoservices"
+        android:layout_width="268dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="104dp"
+        android:text="Procede to services "
+        app:layout_constraintBottom_toTopOf="@+id/btn_mechanic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/btn_autospares"
+        android:layout_width="207dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="87dp"
+        android:text="Purchase Autospares"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
+        android:id="@+id/btn_mechanic"
+        android:layout_width="177dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="Find a mechanic"
+        app:layout_constraintBottom_toTopOf="@+id/btn_vehicleinsurance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_procedetoservices" />
+
+    <Button
+        android:id="@+id/btn_vehicleinsurance"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="19dp"
+        android:text="Vehicle Insurance"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ntsaweb"
+        app:layout_constraintEnd_toEndOf="@+id/btn_autospares"
+        app:layout_constraintStart_toStartOf="@+id/btn_mechanic"
+        app:layout_constraintTop_toBottomOf="@+id/btn_mechanic" />
+
+    <Button
+        android:id="@+id/btn_ntsaweb"
+        android:layout_width="192dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="80dp"
+        android:text="Visit NTSA website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_vehicleinsurance" />
+</androidx.constraintlayout.widget.ConstraintLayout>
